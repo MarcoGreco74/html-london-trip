@@ -6,7 +6,7 @@
     <title>html-london-trip</title>
 </head>
 <body>
-    <header>
+    <header id="header">
         <h1>Il mio viaggio a Londra</h1>
         <!--------      Add prime 3 immagini  -------->
         <article>
@@ -14,11 +14,16 @@
             <img src="./immagini/pexels-bill-emrich-230794-1.jpg" alt="immagine2 di Londra" />
             <img src="./immagini/pexels-bill-emrich-230794-2.jpg" alt="immagine3 di Londra" />
         </article>
+        <nav>
+            <a href="#info_utili">Vai alle info utili</a>
+            <a href="#altre_foto">Altre foto</a>
+        </nav>
         <!-------------------------------------------->
     </header>
     <hr />
     <main>
         <!------- add liste e tabelle info utili ------------>
+        <div id="info_utili">
         <h2>Le mie spese</h2>
         <table>
             <thead>
@@ -81,14 +86,16 @@
             </ul>
         </li>
     </ol>
+    </div>
     <!---------fine tabelle e liste  ------------->
     <hr />
     <!----- add ultime 2 foto --------------------->
     <h3>Le foto</h3>
-    <article>
+    <article id="altre_foto">
         <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg" alt="immagine4" />
         <img src="https://imgc.allpostersimages.com/img/posters/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg?artPerspective=n" alt="immagine5" />
     </article>
+    <a href="#header">Torna su</a>
     <!------------------------------------------------->
     </main>
     
